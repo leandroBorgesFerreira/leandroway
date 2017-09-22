@@ -10,6 +10,6 @@ import org.springframework.http.HttpStatus
 class HelloController {
 	
 	@RequestMapping("/hello")
-	fun hello() : ResponseEntity<String> = ResponseEntity("Hello!", HttpStatus.OK)
+	fun hello() : ResponseEntity<String> = ResponseEntity("Hellooo!", HttpStatus.OK)
 	
 }
